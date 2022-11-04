@@ -1,0 +1,99 @@
+.container
+{
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-rows:  auto auto 3fr auto auto;
+	grid-template-areas: 
+	"one one one"
+	"two three four"
+	"two five four"
+	"six six four"
+	"seven seven seven";
+	justify-items: stretch;
+	background-color: blue;
+	height: 100%;
+    width: 100%;
+}
+#header1, #header2
+{
+	font-size: 20px;
+	text-align: center;
+}
+#child1, #child2
+{
+	margin: 2%;
+	background-color: red;
+	width: 33%;
+	height: 50;
+}
+div
+{
+	background-color: honeydew; 
+	border: solid 1px red;
+}
+nav
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#one
+{
+	background-color: black;
+	grid-area: one;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#two
+{
+	grid-area: two;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#three
+{
+	background-color: blue;
+	grid-area: three;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#four
+{
+	grid-area: four;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#five
+{
+	background-color: yellow;
+	grid-area: five;
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#six
+{
+	background-color: red;
+	grid-area: six;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#seven
+{
+	background-color: black;
+	grid-area: seven;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

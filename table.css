@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    background-color: white;
+}
+
+table{
+    border-spacing: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div{
+    box-sizing: border-box;
+}
+nav
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#first {
+    background-color: black;
+    height: 100%;
+}
+
+#second {
+    height: 100%;
+    width: 100%;
+}
+
+#third {
+    background-color: blue;
+    height: 100%;
+    text-align: center;
+}
+
+#forth {
+    align-items: center;
+    height: 100%;
+}
+
+#fifth {
+    background-color: yellow;
+    height: 100%;
+}
+
+#sixth {
+
+    background-color: red;
+    height: 100%;
+}
+#seventh {
+    background-color: black;
+    height: 100%;
+}
+
+
+#child1, #child2{
+
+    display: inline-block;
+    background-color: red;
+    text-align: center;
+
+}   
+
+#child1{
+    margin-right: 3%;
+    margin-top: 1%;
+    width: 80%;
+    height: 33%;
+}
+
+#child2{
+    background-color: red;
+    height: 50;
+    width: 100%;
+    margin: 2%;
+    float: right;
+}
+#header1, #header2 {
+    font-size: 20px;
+    text-align: center;
+}
+#first, #second, #third, #forth, #fifth, #sixth,#seventh{
+    border: 1px solid red;
+}
+
+nav{
+    width: 40%;
+    margin-top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#firstbigflexbox {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 9.5;
+    width: inherit
+}
+
+#secondbigflexbox{
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 9.5;
+}
+
+#thirdbigflexbox{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 8;
+    max-width: 80%;
+}
+
+#forthbigflexbox{
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 30;
+   
+}
+#fifthbigflexbox{
+    display: flex;
+    flex-flow: column nowrap;
+   flex-grow: 80;
+}
+
+#first {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 0.5;
+   
+}
+
+#second {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-grow: 20;
+    flex-shrink: 0;
+    
+}
+
+#third {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+#forth {
+   
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 2;
+    max-width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+#fifth {
+   background-color: yellow;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 30;
+    flex-shrink: 0;
+}
+#sixth
+{
+ background-color: red;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-end;
+    align-items: center;
+   flex-grow: 1;
+}
+#seventh {
+   background-color: black;
+    flex-grow: 0.5;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div
+{
+    background-color: honeydew; 
+    border: solid 1px red;
+}
+#child1, #child2 {
+    background-color: red;
+    height: 50;
+    width: 33%;
+    margin: 2%;
+}
+
+#header1, #header2 {
+    font-size: 20px;
+    text-align: center;
+}
